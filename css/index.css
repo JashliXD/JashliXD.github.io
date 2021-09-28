@@ -1,0 +1,55 @@
+body {
+	margin: 0;
+	font-family: Arial;
+}
+
+.navbar {
+	background-color: gray;
+	overflow: hidden;
+}
+
+.navbar a {
+	display: block;
+	float: right;
+	color: white;
+	text-decoration: none;
+	padding: 15px 10px;
+	text-align:center;
+	font-size: 15px;
+	border: 1px border grey;
+}
+
+.navbar a:hover {
+	background-color: black
+}
+
+.navbar a.left {
+	float: left;
+}
+
+.border {
+	border:2.5px solid black;
+	border-radius: 5px;
+	height: 300px;
+	width: 400px;
+	text-align: center;
+	float: center;
+	margin: auto;
+}
+button{
+	padding: 5px 5px;
+	border: none;
+	transition: 0.3s;
+	color: white;
+	border-radius: 10px;
+	background-color: gray;
+	font-size: 19px;
+}
+button:hover{
+	background-color: black
+}
+
+.border img {
+	border: 2.5px solid black;
+	border-radius: 50px;
+}
